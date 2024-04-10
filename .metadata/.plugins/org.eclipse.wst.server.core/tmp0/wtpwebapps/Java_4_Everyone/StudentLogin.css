@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";*{
+    margin: 0;
+    padding: 0;
+    /* position: fixed; */
+}
+body{
+    background-color: palevioletred;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.login_container{
+    height: 100%;
+    width: 100%;
+}
+.login_pic{
+    height: 80vh;
+    width: 620px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    bottom: 20%; 
+}
+.login_pic img{
+    /* height: 80vh; */
+    height: 50vh;
+    width: 520px;
+    position: absolute;
+    box-shadow: 6px 8px rgb(237, 133, 168);
+
+    /* left: 20%; */
+    /* top: 30%; */
+    /* bottom: 20%;  */
+}
+.login_form{
+    height: 74%;
+    width: 650px;
+    position: absolute;
+    /* right: 10%; */
+    right: 5%;
+    /* top: 12%; */
+    bottom: 5%;
+    background-color: rgb(240, 226, 205);
+    border-top-left-radius: 30%;
+}
+#usn{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 40px;
+}
+#usn_inp{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 220px;
+    height: 50px;
+    border-top-right-radius: 30px solid grey;
+    border-top-left-radius: 30px solid grey;
+    border-bottom-right-radius: 30px solid grey;
+    border-bottom-left-radius: 30px solid grey;
+   
+}
+#pass{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    font-size: 40px;
+}
+#pass_inp{
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    width: 220px;
+    height: 50px;
+    border-top-right-radius: 30px solid grey;
+    border-top-left-radius: 30px solid grey;
+    border-bottom-right-radius: 30px solid grey;
+    border-bottom-left-radius: 30px solid grey;
+}
+#login_btn{
+    position: absolute;
+    bottom: 40%;
+    left: 20%;
+    font-size: 30px;
+    /* color: blue; */
+    height: 40px;
+    width: 120px;
+    border-top-right-radius: 30px solid grey;
+    border-top-left-radius: 30px solid grey;
+    border-bottom-right-radius: 30px solid grey;
+    border-bottom-left-radius: 30px solid grey;
+}
+#login_btn:hover{
+    background-color: aqua;
+}
+#cancel_btn{
+    position: absolute;
+    bottom: 40%;
+    right: 28%;
+    font-size: 30px;
+    /* color: blue; */
+    height: 40px;
+    width: 120px;
+    border-top-right-radius: 30px solid grey;
+    border-top-left-radius: 30px solid grey;
+    border-bottom-right-radius: 30px solid grey;
+    border-bottom-left-radius: 30px solid grey;
+}
+#cancel_btn:hover{
+    background-color: aqua;
+}
+#login_act{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    font-size: 22px;
+    /* text-decoration: none; */
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Signup</title>
+    <link rel="stylesheet" href="StaffSignup.css">
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <h3>Enter Staff Details</h3><br>
+    <div>
+    <form action="staffsignup" method="post">
+            <table>
+            <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+      
+            <label for="mobile">Mobile: </label>
+            <input type="tel" pattern="{0-9}[10]" name="mobile" id="mobile">
+        
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+        
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password">
+        
+            <label for="dob">DOB: </label></th>
+            <input type="date" name="dob" id="dob">
+       
+           <label for="gender">Gender: </label>
+              
+                <input type="radio" name="gender" value="male" id="gender">Male
+                <input type="radio" name="gender" value="female" id="gender">Female
+            
+            <button type="reset">Cancel</button>
+            <button>Register</button>
+            <div class="social">
+                <div class="fb"><a href="SelectRole.html">Back</a></div>
+            </div>
+            
+       
+    </form>
+</div>
+    <!-- <br><br> -->
+    <!-- <a href="SelectRole.html"><button>Back</button></a> -->
+</body>
+</html>

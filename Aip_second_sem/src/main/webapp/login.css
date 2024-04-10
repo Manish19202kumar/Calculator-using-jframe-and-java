@@ -1,0 +1,33 @@
+/* *{
+    background-color: black;
+} */
+.main{
+    height: 50%;
+    width: 40%;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    /* background-color: aqua; */
+    border: 2px solid red;
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    /* background-image: url("./../../../../../Downloads/egg.jpg"); */
+}
+.login_form{
+    /* height: 40%;
+    width: 30%; */
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+    /* background-color: aqua; */
+}
+#uname{
+    position: absolute;
+    font-size: larger;
+    /* left: 10%; */
+}
+*{
+    background-image: url("./../../../../../Downloads/egg.jpg");
+}

@@ -1,0 +1,151 @@
+@charset "ISO-8859-1";
+*{
+ margin: 0;
+ padding: 0;
+ scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    background-color:gray ;
+}
+li{
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+#hero{
+   
+    background-image: url("./images/hero.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+/* #hero-content::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url(images/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     filter: brightness(70%);
+} */
+#hero-content h1{
+    color: white;
+    font-size: 120px;
+}
+#hero-content h2{
+    color: white;
+    font-size: 40px;
+
+}
+.btn {
+    /* box-shadow: 10px 10px 10px rgb(79, 77, 77); */
+    margin-top: 20px;
+    background: red;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    font-size:20px;
+} 
+.btn a{
+    color: white;
+    text-decoration: none;
+
+}  
+#menu{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.menu1 img{
+    height: 220px;
+    
+}
+.menu1 h3{
+    font-size: 30px;
+}
+#title{
+    margin: 30px;
+    background-color: chartreuse;
+    text-align: center;
+    font-size: 50px;
+}
+#chef{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+#chef img{
+    height: 230px;
+}
+#chef h2{
+    text-align: center;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.about p{
+    font-size: 20px;
+    text-align: center;
+}
+.aboutus{
+    width: 30%;
+}
+.orderbtn{
+    margin-top: 20px;
+    background: rgb(4, 17, 197);
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    font-size:20px;
+}
+.orderbtn {
+    color: white;
+    text-decoration: none;
+
+} 
+.paybtn{
+    margin-top: 20px;
+    background: green;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    font-size:20px;
+}
+.paybtn {
+    color: white;
+    text-decoration: none;
+
+} 

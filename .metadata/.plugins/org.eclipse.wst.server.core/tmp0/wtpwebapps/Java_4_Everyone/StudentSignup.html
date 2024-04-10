@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="StudentSignup.css">
+</head>
+<body>
+    <div class="login_container">
+        <h1>Java_4_Everyone</h1>
+    <div class="login_pic">
+        <img src="./images/login1.avif" alt="">
+        </div>
+        <div class="login_form">
+         <form action="Signup_Servlet" method="post" enctype="multipart/form-data" >
+            <label for="" id="usn" name="stdname">Name:</label>
+            <input type="text" id="usn_inp" required><br>
+            <label for="" id="num" name="stdnum">Number:</label>
+            <input type="number" id="num_inp" required><br>
+            <label for="" id="mail" name="stdmail"> Email:</label><br>
+            <input type="email" id="mail_inp" required><br>
+            <label for="" id="pass" name="stdpass">Password:</label>
+            <input type="password" id="pass_inp" required><br>
+            <!-- <label for="" id="gender">Gender:</label><br>
+            <input type="radio" id="male">Male 
+            <input type="radio" id="female">Female
+            <input type="radio" id="other">Other <br> -->
+            <label for="" id="course" name="stdcourse">Course:</label>
+            <select name="" id="option">
+                <option value="">Select</option>
+                <option value="">Java</option>
+                <option value="">Java Full Stack</option>
+                <option value="">Sql</option>
+                <option value="">Web technology</option>
+                <option value="">Data Structure with Java</option>
+                <option value="">Java Programming</option>
+                <option value="">Java Framework</option>
+                <option value="">Aptitude</option>
+                <option value="">Communication </option>
+                <option value="">React</option>
+                <option value="">MERN</option>
+                <option value="">MEAN</option>
+                <option value="">Machine Learning</option>
+                <option value="">Cloud Computing</option>
+                <option value="">Artificial Inteligence</option>
+            </select> <br>
+            <label for="" id="photo" name="stdpic">Photo:</label><br>
+            <input type="file" id="photo_upload" required><br>
+           <label for="" id="add" std="stdadd">Address:</label>
+           <input type="text" id="add_inp" required><br>
+           <label for="" id="country" name="stdcountry">Country:</label>
+           <input type="text" name="" id="country_inp" required>
+           <button id="login_btn" type="submit"> <a href="Login.html">Submit</button></a>
+            <button id="cancel_btn" type="reset">Cancel</button>
+            <!-- <h3 id="login_act">Don't have an account <a href="Signup.html">click here to create account</a></h3> -->
+         </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+127.0.0.1 - - [13/Mar/2024:00:46:04 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Mar/2024:00:46:05 +0530] "GET /myresturant/swig.jpeg HTTP/1.1" 404 776
+0:0:0:0:0:0:0:1 - - [13/Mar/2024:00:46:05 +0530] "GET /myresturant/swigy.png HTTP/1.1" 404 776
+0:0:0:0:0:0:0:1 - - [13/Mar/2024:00:46:05 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [13/Mar/2024:00:46:36 +0530] "GET /myresturant/image/signuplogo.png HTTP/1.1" 404 791
+0:0:0:0:0:0:0:1 - - [13/Mar/2024:00:47:38 +0530] "POST /myresturant/signup HTTP/1.1" 200 1847
+0:0:0:0:0:0:0:1 - - [13/Mar/2024:00:47:57 +0530] "POST /myresturant/login HTTP/1.1" 200 6869

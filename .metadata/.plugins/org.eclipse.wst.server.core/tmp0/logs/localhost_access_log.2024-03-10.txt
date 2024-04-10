@@ -1,0 +1,12 @@
+127.0.0.1 - - [10/Mar/2024:23:26:29 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Mar/2024:23:26:42 +0530] "GET /assignment/ HTTP/1.1" 404 766
+0:0:0:0:0:0:0:1 - - [10/Mar/2024:23:26:42 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/Mar/2024:23:26:57 +0530] "GET /assignment/index.html HTTP/1.1" 404 776
+127.0.0.1 - - [10/Mar/2024:23:47:14 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Mar/2024:23:47:46 +0530] "GET /assignment/ HTTP/1.1" 200 209
+0:0:0:0:0:0:0:1 - - [10/Mar/2024:23:47:49 +0530] "GET /assignment/login.jsp HTTP/1.1" 200 458
+0:0:0:0:0:0:0:1 - - [10/Mar/2024:23:47:51 +0530] "GET /assignment/register.jsp HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [10/Mar/2024:23:47:53 +0530] "GET /assignment/index.html HTTP/1.1" 200 209
+0:0:0:0:0:0:0:1 - - [10/Mar/2024:23:47:57 +0530] "GET /assignment/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Mar/2024:23:48:02 +0530] "GET /assignment/register.jsp HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [10/Mar/2024:23:48:05 +0530] "POST /assignment/LoginServlet HTTP/1.1" 200 -

@@ -1,0 +1,63 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    border-top-left-radius:1000px ;
+    background-color: aqua;
+
+}
+.head img{
+    position: relative;
+    left: 10%;
+    box-shadow: 10px 10px 10px rgb(85, 82, 82);
+
+}
+
+form{
+    padding-right: 120px;
+}
+.log{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.log label{
+    padding: 10px;
+   font-size: 30px;
+   /* text-align: right ; */
+}
+.log input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+}
+.btn{
+    height: 20px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.btn button{
+    
+}
+h2{
+    font-size: 18px;
+}
+.btn1{
+    height: 20px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.btn button{
+    
+}
